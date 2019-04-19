@@ -6,7 +6,7 @@
 //
 //
 
-open class SwiftPhotoGalleryCell: UICollectionViewCell {
+public class SwiftPhotoGalleryCell: UICollectionViewCell {
 
     var image:UIImage? {
         didSet {
@@ -14,8 +14,8 @@ open class SwiftPhotoGalleryCell: UICollectionViewCell {
         }
     }
 
-    open var scrollView: UIScrollView
-    open let imageView: UIImageView
+    public var scrollView: UIScrollView
+    public let imageView: UIImageView
 
     override init(frame: CGRect) {
 
